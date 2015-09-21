@@ -36,7 +36,7 @@ jQuery(function ($) {
     (function () {
 
         $("#countdownOne, #countdownTwo, #countdownThree, #countdownFour, #countdownFive, #countdownSix, #countdownSeven, #countdownEight, #countdownNine, #countdownTen ").countdown({
-            date: "30 august 2015 12:00:00",
+            date: "30 august 2018 12:00:00",
             format: "on"
         });
     
