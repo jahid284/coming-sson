@@ -1,0 +1,787 @@
+/* -------------------------------------------
+Alert Style
+---------------------------------------------- */
+.alert {
+  padding: 12px 15px;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+.alert i {
+	font-size: 20px;
+	margin-right: 30px;
+}
+.alert .close {
+	filter: alpha(opacity=100);
+	opacity: 1;
+	text-shadow: none;
+}
+
+/*alert-default*/
+.alert-default {
+  color: #969595;
+  background-color: #f9f9f9;
+  border-color: #dadada;
+}
+.alert-default .close {
+	color: #dadada;
+}
+
+/*alert-danger*/
+.alert-danger {
+  color: #eb768c;
+  background-color: #ffdee2;
+  border-color: #ffacbc;
+}
+.alert-danger .close {
+	color: #eb768c;
+}
+
+/*alert-info*/
+.alert-info {
+  color: #31aae2;
+  background-color: #ddf4ff;
+  border-color: #89D2F4;
+}
+.alert-info .close {
+	color: #31aae2;
+}
+
+/*alert-warning*/
+.alert-warning {
+  color: #f0c440;
+  background-color: #fff9e6;
+  border-color: #fcdc7b;
+}
+.alert-warning .close {
+	color: #f0c440;
+}
+
+/*alert-success*/
+.alert-success {
+  color: #73c8b7;
+  background-color: #dbfff8;
+  border-color: #73c8b7;
+}
+.alert-success .close {
+	color: #73c8b7;
+}
+
+
+/*alert-violet*/
+.alert-violet {
+  color: #c183d6;
+  background-color: #faebff;
+  border-color: #c183d6;
+}
+.alert-violet .close {
+	color: #c183d6;
+}
+
+
+/*alert-dismissable*/
+.alert-dismissable .close, 
+.alert-dismissible .close {
+  top: 0px;
+  right: 0px;
+}
+
+
+
+/* -----------------------------------------
+alertTwo start
+-------------------------------------------- */
+.alertTwo {}
+.alertTwo .alert{
+  background-color: #fff;
+  color: #969595;
+  border-color: #F9F1F1;
+  padding: 25px 30px;
+  position: relative;
+  display: table;
+}
+.alertTwo .icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+.alertTwo .icon i {
+	font-size: 20px;
+	margin-right: 30px;
+	width: 57px;
+	height: 57px;
+	line-height: 57px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+}
+.alertTwo .alert-default i {
+  background-color: #dadada;
+}
+.alertTwo .alert-danger i {
+  background-color: #eb768c;
+}
+.alertTwo .alert-info i {
+  background-color: #31aae2;
+}
+.alertTwo .alert-warning i {
+  background-color: #fcdc7b;
+}
+.alertTwo .alert-success i {
+  background-color: #73c8b7;
+}
+.alertTwo .alert-violet i {
+  background-color: #c183d6;
+}
+.alertTwo .alert .message h3 {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.alertTwo .alert .message p {
+	margin-bottom: 0;
+}
+
+.alertTwo .alert .close {
+  color: #dadada;
+}
+.alertTwo .alert-dismissable .close, 
+.alertTwo .alert-dismissible .close {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
+
+/* -----------------------------------------
+alertTwo end
+-------------------------------------------- */
+
+
+/* -----------------------------------------
+alertThree start
+-------------------------------------------- */
+.alertThree .alert{
+  color: #fff;
+  border-color: transparent;
+  padding: 25px 30px;
+  position: relative;
+  display: table;
+}
+.alertThree .icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+.alertThree .icon i {
+	font-size: 20px;
+	margin-right: 30px;
+	width: 57px;
+	height: 57px;
+	line-height: 51px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	border: 3px solid #fff;
+}
+.alertThree .alert-default  {
+  background-color: #dadada;
+}
+.alertThree .alert-danger {
+  background-color: #eb768c;
+}
+.alertThree .alert-info {
+  background-color: #31aae2;
+}
+.alertThree .alert-warning {
+  background-color: #fcdc7b;
+}
+.alertThree .alert-success {
+  background-color: #73c8b7;
+}
+.alertThree .alert-violet {
+  background-color: #c183d6;
+}
+.alertThree .alert .message h3 {
+	font-size: 15px;
+	margin-bottom: 5px;
+	color: #fff;
+}
+.alertThree .alert .message p {
+	margin-bottom: 0;
+}
+
+.alertThree .alert .close {
+  color: #fff;
+}
+.alertThree .alert-dismissable .close, 
+.alertThree .alert-dismissible .close {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
+
+/* -----------------------------------------
+alertThree end
+-------------------------------------------- */
+
+
+/* -----------------------------------------
+alertFour start
+-------------------------------------------- */
+.alertFour {}
+.alertFour .alert{
+	background-color: #fff;
+	color: #969595;
+	border-color: #f1f1f1;
+	padding: 0;
+	position: relative;
+	display: table;
+	width: 100%;
+	margin-bottom: 12px;
+}
+.alertFour .icon {
+  display: table-cell;
+  vertical-align: middle;
+  border-right: 1px solid #f1f1f1;
+  text-align: center;
+  width: 100px;
+}
+.alertFour .icon i {
+	font-size: 30px;
+	margin-right: 0;
+}
+.alertFour .alert-default i {
+  color: #dadada;
+}
+.alertFour .alert-danger i {
+  color: #eb768c;
+}
+.alertFour .alert-info i {
+  color: #31aae2;
+}
+.alertFour .alert-warning i {
+  color: #fcdc7b;
+}
+.alertFour .alert-success i {
+  color: #73c8b7;
+}
+.alertFour .alert-violet i {
+  color: #c183d6;
+}
+.alertFour .alert .message {
+	padding: 25px 30px;
+}
+.alertFour .alert .message h3 {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.alertFour .alert .message p {
+	margin-bottom: 0;
+}
+
+.alertFour .alert .close {
+  color: #dadada;
+}
+.alertFour .alert-dismissable .close, 
+.alertFour .alert-dismissible .close {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
+
+/* -----------------------------------------
+alertFour end
+-------------------------------------------- */
+
+
+
+/* -----------------------------------------
+alertFive start
+-------------------------------------------- */
+.alertFive {}
+.alertFive .alert{
+  color: #fff;
+  border: 0;
+  padding: 0;
+  position: relative;
+  display: table;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.alertFive .icon {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 20px;
+}
+.alertFive .icon i {
+	font-size: 16px;
+	width: 50px;
+	height: 50px;
+	line-height: 48px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-right: 0;
+}
+.alertFive .alert-default {
+  background-color: #dadada;
+}
+.alertFive .alert-danger {
+  background-color: #eb768c;
+}
+.alertFive .alert-info {
+  background-color: #31aae2;
+}
+.alertFive .alert-warning {
+  background-color: #fcdc7b;
+}
+.alertFive .alert-success {
+  background-color: #73c8b7;
+}
+.alertFive .alert-violet {
+  background-color: #c183d6;
+}
+.alertFive .alert .message {
+  padding: 25px 30px;
+  width: 90%;
+  border-right: 1px solid #fff;
+}
+
+@media (min-width : 480px) and (max-width : 1199px) {
+	.alertFive .alert .message {
+	  width: 85%;
+	}
+}
+@media (max-width : 480px) {
+	.alertFive .alert .message {
+	  width: 75%;
+	}
+}
+
+.alertFive .alert .message h3 {
+	font-size: 15px;
+	margin-bottom: 5px;
+	color: #fff;
+}
+.alertFive .alert .message p {
+	margin-bottom: 0;
+}
+ 
+.alertFive .alert-dismissible .close {
+	position: absolute;
+	top: 50%;
+	right: 36px;
+	background-color: #fff;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: -14px;
+	border-radius: 50%;
+}
+/* -----------------------------------------
+alertFive end
+-------------------------------------------- */
+
+
+
+/* =====================================================
+CALL TO ACTION START
+========================================================*/
+/*ctaOne start*/
+.ctaOne {}
+.ctaOne .callToAction{
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  box-shadow: inset 4px 0 #31aae2;
+}
+.ctaOne .callToAction h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #313131;
+  margin-bottom: 5px;
+}
+.ctaOne .callToAction p {
+  margin-bottom: 0;
+}
+.ctaOne .callToAction .cta-btn {
+  margin: 8px 0;
+  text-align: right;
+}
+
+@media (max-width : 767px) {
+  .ctaOne .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+}
+.ctaOne .callToAction .cta-btn .btn {
+  padding: 11px 30px;
+  font-weight: 700;
+}
+.ctaOne .callToAction .cta-btn .btn:focus,
+.ctaOne .callToAction .cta-btn .btn:hover{
+  border-color: #31aae2;
+}
+/*ctaOne end*/
+
+
+
+
+/*ctaTwo start*/
+.ctaTwo {}
+.ctaTwo .callToAction{
+  background-color: #f9f9f9;
+  padding: 30px;
+}
+.ctaTwo .callToAction img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+.ctaTwo .callToAction h2{
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #313131;
+  margin-bottom: 0;
+}
+.ctaTwo .callToAction .cta-btn {
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaTwo .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaTwo .callToAction .cta-btn .btn {
+  padding: 11px 30px;
+  font-weight: 700;
+}
+/*ctaTwo end*/
+
+
+
+
+/*ctaThree start*/
+.ctaThree {}
+.ctaThree .callToAction{
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+}
+.ctaThree .callToAction i {
+  background-color: #31aae2;
+  width: 73px;
+  height: 73px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 73px;
+  text-align: center;
+  float: left;
+  margin-right: 25px;
+  border-radius: 50%;
+}
+.ctaThree .callToAction h2{
+  font-size: 24px;
+  font-weight: 700;
+  color: #313131;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.ctaThree .callToAction p {
+  margin-bottom: 0;
+}
+.ctaThree .callToAction .cta-btn {
+  text-align: right;
+  margin: 15px 0;
+}
+
+@media (max-width : 767px) {
+  .ctaThree .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+}
+.ctaThree .callToAction .cta-btn .btn {
+  padding: 11px 30px;
+  font-weight: 700;
+}
+.ctaThree .callToAction .cta-btn .btn:focus,
+.ctaThree .callToAction .cta-btn .btn:hover{
+  border-color: #31aae2;
+}
+/*ctaThree end*/
+
+
+
+
+/*ctaFour start*/
+.ctaFour {}
+.ctaFour .callToAction{
+  background-color: #f9f9f9;
+  padding: 30px;
+}
+.ctaFour .callToAction h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #313131;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.ctaFour .callToAction p {
+  margin-bottom: 0;
+}
+.ctaFour .callToAction .cta-btn {
+  margin: 8px 0;
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaFour .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaFour .callToAction .cta-btn .btn {
+  padding: 11px 30px;
+  font-weight: 700;
+  border: 2px solid;
+}
+.ctaFour .callToAction .cta-btn .btn:focus,
+.ctaFour .callToAction .cta-btn .btn:hover{
+  color: #fff;
+  background-color: #313131;
+  border-color: transparent;
+}
+/*ctaFour end*/
+
+
+
+
+/*ctaFive start*/
+.ctaFive {}
+.ctaFive .callToAction{
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+}
+.ctaFive .callToAction h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #313131;
+  margin-bottom: 5px;
+}
+.ctaFive .callToAction p {
+  margin-bottom: 0;
+}
+.ctaFive .callToAction .cta-btn {
+  margin: 8px 0;
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaFive .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaFive .callToAction .cta-btn .btn {
+  font-weight: 700;
+  border: 2px solid;
+}
+@media (max-width : 1199px) {
+  .ctaFive .callToAction .cta-btn .btn {
+    margin-bottom: 10px;
+  }
+}
+.ctaFive .callToAction .cta-btn .btn.btn-primary {
+  border: 2px solid transparent;
+}
+.ctaFive .callToAction .cta-btn .btn:focus,
+.ctaFive .callToAction .cta-btn .btn:hover{
+  color: #fff;
+  background-color: #313131;
+  border-color: transparent;
+}
+/*ctaFive end*/
+
+
+
+
+/*ctaSix start*/
+.ctaSix {}
+.ctaSix .callToAction{
+  background-color: #31aae2;
+  padding: 40px 30px;
+}
+.ctaSix .callToAction h2{
+  font-size: 30px;
+  line-height: 40px;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 0;
+}
+.ctaSix .callToAction .cta-btn {
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaSix .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaSix .callToAction .cta-btn .btn {
+  color: #31aae2;
+  background-color: #fff;
+  font-weight: 700;
+}
+.ctaSix .callToAction .cta-btn .btn:hover {
+  color: #fff;
+  background-color: #313131;
+  border-color: transparent;
+}
+/*ctaSix end*/
+
+
+
+
+/*ctaSeven start*/
+.ctaSeven {
+  padding: 44px 0;
+  background-color: #313131;
+}
+.ctaSeven .callToAction h2 {
+  color: #969595;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.ctaSeven .callToAction .cta-btn {
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaSeven .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaSeven .callToAction .cta-btn .btn {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  border: 2px solid;
+  font-weight: 700;
+}
+.ctaSeven .callToAction .cta-btn .btn:hover {
+  color: #31aae2;
+  background-color: #ffffff;
+  border-color: transparent;
+}
+/*ctaSeven end*/
+
+
+
+/*ctaEight start*/
+.ctaEight {
+  padding: 44px 0;
+}
+.ctaEight .callToAction h2 {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.ctaEight .callToAction p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.ctaEight .callToAction .cta-btn {
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaEight .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaEight .callToAction .cta-btn .btn {
+  border: 2px solid transparent;
+  font-weight: 700;
+}
+.ctaEight .callToAction .cta-btn .btn:hover {
+  border: 2px solid  #31aae2;
+}
+/*ctaEight end*/
+
+
+
+/*ctaNine start*/
+.ctaNine {
+  padding: 44px 0;
+  background-color: #f9f9f9;
+}
+.ctaNine .callToAction h2 {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.ctaNine .callToAction p {
+  margin-bottom: 0;
+}
+.ctaNine .callToAction .cta-btn {
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaNine .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaNine .callToAction .cta-btn .btn {
+  border: 2px solid;
+  font-weight: 700;
+}
+.ctaNine .callToAction .cta-btn .btn:hover {
+  color: #fff;
+  background-color: #313131;
+  border-color: transparent;
+}
+/*ctaNine end*/
+
+
+
+
+
+/*ctaTen start*/
+.ctaTen {
+  padding: 44px 0;
+  background-color: #31aae2;
+}
+.ctaTen .callToAction h2{
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+.ctaTen .callToAction .cta-btn {
+  text-align: right;
+}
+@media (max-width : 767px) {
+  .ctaTen .callToAction .cta-btn {
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+.ctaTen .callToAction .cta-btn .btn {
+  color: #31aae2;
+  background-color: #fff;
+  font-weight: 700;
+}
+.ctaTen .callToAction .cta-btn .btn:hover {
+  color: #fff;
+  background-color: #313131;
+  border-color: transparent;
+}
+/*ctaTen end*/
+

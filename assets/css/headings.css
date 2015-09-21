@@ -1,0 +1,589 @@
+/* ===========================================
+Heading Styles START
+============================================== */
+/*headingOne*/
+.headingOne {}
+.headingOne h2 {
+  font-size: 30px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.headingOne h2:after {
+  content: "";
+  background: #31aae2;
+  width: 28px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -14px;
+}
+
+
+/*headingTwo*/
+.headingTwo {}
+.headingTwo h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0;
+  position: relative;
+}
+.headingTwo h2:before, 
+.headingTwo h2:after {
+  content: " ";
+  height: 10px;
+  width: 10px;
+  background-color: #428BCA;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+.headingTwo h2:before {
+  left: -28px;
+}
+.headingTwo h2:after {
+  right: -28px;
+}
+
+
+/*headingThree*/
+.headingThree {}
+.headingThree h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  position: relative;
+}
+.headingThree span.bordered-icon {
+  color: #dadada;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.headingThree span.bordered-icon:before, 
+.headingThree span.bordered-icon:after {
+  content: "";
+  background: #dadada;
+  width: 50px;
+  height: 1px;
+  top: 8px;
+  position: absolute;
+}
+.headingThree span.bordered-icon:before {
+  left: 100%;
+}
+.headingThree span.bordered-icon:after {
+  right: 100%;
+}
+
+
+
+/*headingFour*/
+.headingFour {}
+.headingFour span{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.headingFour h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  position: relative;
+}
+.headingFour h2:after {
+  content: "";
+  background: #31aae2;
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -25px;
+}
+
+
+/*headingFive*/
+.headingFive {}
+.headingFive h2{
+  font-size: 30px;
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+.headingFive h2:after {
+  content: "";
+  background: #dadada;
+  width: 118px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -59px;
+}
+.headingFive i {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -5px;
+  font-size: 10px;
+  background-color: #fff;
+  color: #31aae2;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  z-index: 100;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/*headingSix*/
+.headingSix {}
+.headingSix h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.headingSix p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+/*headingSeven*/
+.headingSeven {}
+.headingSeven h2{
+  font-size: 30px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+.headingSeven h2:after {
+  content: "";
+  background: #31aae2;
+  width: 140px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -70px;
+}
+.headingSeven p{
+  margin-bottom: 0
+}
+
+/*headingEight*/
+.headingEight {}
+.headingEight h2{
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid #313131;
+  margin-bottom: 0;
+}
+
+
+
+
+/*headingNine*/
+.headingNine {}
+.headingNine h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+}
+.headingNine p {
+  margin: 10px 0 0;
+}
+.headingNine span.bordered-icon {
+  color: #31aae2;
+  padding: 0 10px;
+  font-size: 10px;
+  line-height: 18px;
+  position: relative;
+  display: inline-block;
+}
+
+.headingNine span.bordered-icon i {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.headingNine span.bordered-icon:before, 
+.headingNine span.bordered-icon:after {
+  content: "";
+  background: #dadada;
+  width: 215px;
+  height: 1px;
+  top: 8px;
+  position: absolute;
+}
+@media only screen and (max-width : 480px) {
+  .headingNine span.bordered-icon:before, 
+  .headingNine span.bordered-icon:after {
+    width: 100px;
+  }
+}
+.headingNine span.bordered-icon:before {
+  left: 100%;
+}
+.headingNine span.bordered-icon:after {
+  right: 100%;
+}
+
+
+
+/*headingTen*/
+.headingTen {}
+.headingTen h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.headingTen span {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #313131;
+}
+.headingTen i {
+  font-size: 20px;
+  color: #31aae2;
+}
+
+
+
+/*headingEleven*/
+.headingEleven {}
+.headingEleven h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.headingEleven span.bordered-icon {
+  color: #31aae2;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.headingEleven span.bordered-icon:before, 
+.headingEleven span.bordered-icon:after {
+  content: "";
+  background: #dadada;
+  width: 90px;
+  height: 1px;
+  top: 8px;
+  position: absolute;
+}
+.headingEleven span.bordered-icon:before {
+  left: 100%;
+}
+.headingEleven span.bordered-icon:after {
+  right: 100%;
+}
+
+
+/*headingTwelve*/
+.headingTwelve {}
+.headingTwelve h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.headingTwelve span.sub {
+  font-size: 20px;
+  font-weight: 600;
+  color: #969595;
+}
+.headingTwelve span.dashed-border {
+  border: 1px dashed #dadada;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+}
+.headingTwelve span.dashed-border::before, 
+.headingTwelve span.dashed-border::after {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: 10px;
+  color: #31aae2;
+  position: absolute;
+  top: -12px;
+}
+.headingTwelve span.dashed-border::before {
+  left: -20px;
+}
+.headingTwelve span.dashed-border::after {
+  right: -20px;
+}
+
+
+
+
+/*headingThirteen*/
+.headingThirteen {}
+.headingThirteen span.sub{
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+.headingThirteen h2{
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding: 0 30px;
+  margin-bottom: 0;
+  border-right: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+}
+
+.headingThirteen h2::before,
+.headingThirteen h2::after {
+  content: "";
+  background: #dadada;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+}
+
+
+@media only screen and (max-width : 480px) {
+  .headingThirteen h2 {
+    font-size: 20px;;
+    padding: 0 10px;
+  }
+  .headingThirteen h2::before,
+  .headingThirteen h2::after {
+    width: 50px;
+  }
+}
+
+
+
+.headingThirteen h2::before {
+  right: 100%;
+}
+.headingThirteen h2::after {
+  left: 100%;
+}
+
+/*headingFourteen*/
+.headingFourteen {}
+.headingFourteen h2 {
+  font-size: 30px;
+}
+.headingFourteen span.bordered-icon {
+  color: #31aae2;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.headingFourteen span.bordered-icon:before, 
+.headingFourteen span.bordered-icon:after {
+  content: "";
+  background: #dadada;
+  width: 50px;
+  height: 1px;
+  top: 8px;
+  position: absolute;
+}
+.headingFourteen span.bordered-icon:before {
+  left: 100%;
+}
+.headingFourteen span.bordered-icon:after {
+  right: 100%;
+}
+
+
+/*headingFifteen*/
+.headingFifteen {}
+.headingFifteen h2 {
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #31aae2;
+}
+.headingFifteen p {
+  margin-bottom: 0;
+}
+
+
+
+/*headingSixteen*/
+.headingSixteen {}
+.headingSixteen i{
+  font-size: 50px;
+  color: #31aae2;
+  margin-bottom: 30px;
+}
+.headingSixteen h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.headingSixteen p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+
+/*headingSeventeen*/
+.headingSeventeen {}
+.headingSeventeen i{
+  font-size: 30px;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  color: #fff;
+  background-color: #31aae2;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.headingSeventeen h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.headingSeventeen p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+
+/*headingEighteen*/
+.headingEighteen {}
+.headingEighteen .section-title {
+  position: relative;
+}
+
+.headingEighteen .section-title::before,
+.headingEighteen .section-title::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  left: 50%;
+}
+.headingEighteen .section-title::before {
+  background-color: #313131;
+  width: 10px;
+  top: -30px;
+  margin-left: -5px; 
+}
+.headingEighteen .section-title::after {
+  background-color: #31aae2;
+  width: 84px;
+  bottom: -30px;
+  margin-left: -42px; 
+}
+.headingEighteen .section-title h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.headingEighteen .section-title h2 span {
+  color: #31aae2;
+}
+.headingEighteen .section-title p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+
+/*headingNinteen*/
+.headingNinteen {}
+.headingNinteen h2{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.headingNinteen ul {
+  margin-bottom: 20px;
+}
+.headingNinteen li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width : 480px) {
+  .headingNinteen li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.headingNinteen li:last-child {
+  margin-right: 0;
+}
+.headingNinteen li img{
+  border: 3px solid #f9f9f9;
+  width: 107px;
+  height: 52px;
+}
+
+
+/*headingTwenty*/
+.headingTwenty {}
+.headingTwenty h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.headingTwenty p{
+  font-size: 15px;
+}
+.headingTwenty span.bottom-border {
+  background-color: #dadada;
+  height: 1px;
+  width: 130px;
+  position: relative;
+  display: inline-block;
+}
+.headingTwenty span.bottom-border::before, 
+.headingTwenty span.bottom-border::after {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background-color: #428BCA;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: #31aae2;
+  position: absolute;
+  top: -3px;
+}
+.headingTwenty span.bottom-border::before {
+  left: 44%;
+}
+.headingTwenty span.bottom-border::after {
+  right: 43%;
+}
+
+/* ===========================================
+Heading Styles END
+============================================== */

@@ -1,0 +1,650 @@
+
+/* =======================================================================
+GALLERY POST SLIDERS START
+==========================================================================*/
+/*postSliderOne start*/
+.postSliderOne {}
+.postSliderOne .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+.postSliderOne .post-content{}
+.postSliderOne .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderOne .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderOne .post-content .btn:hover {
+	margin-top: 20px;
+	border-color: #31aae2;
+}
+/*postSliderOne end*/
+
+
+
+/*postSliderTwo start*/
+.postSliderTwo .carousel-caption {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: rgba(49, 49, 49, 0.9);
+  text-shadow: none;
+  padding-bottom: 20px;
+}
+.postSliderTwo .entry-title {
+  font-size: 15px;
+  margin: 0;
+}
+.postSliderTwo .entry-title a {
+	color: #fff;
+}
+.postSliderTwo .entry-meta {
+	font-size: 11px;
+	color: #969595;
+}
+.postSliderTwo .entry-meta ul li {
+	display: inline-block;
+}
+.postSliderTwo .entry-meta ul li a{
+	color: #969595;
+}
+.postSliderTwo .entry-title a:hover,
+.postSliderTwo .entry-meta ul li a:hover{
+	color: #31aae2;
+}
+#postSliderTwo .carousel-control {
+  top: auto;
+  bottom: 20px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  line-height: 42px;
+  color: #fff;
+  text-shadow: none;
+}
+#postSliderTwo .carousel-control.left,
+#postSliderTwo .carousel-control.right {
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+#postSliderTwo .carousel-control.left {
+  left: 30px;
+}
+#postSliderTwo .carousel-control.right {
+  right: 30px;
+}
+.postSliderTwo .post-content{}
+.postSliderTwo .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderTwo .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderTwo .post-content .btn:hover {
+	margin-top: 20px;
+	border-color: #31aae2;
+}
+/*postSliderTwo end*/
+
+
+
+
+
+/* --------------------------------------------------
+postSliderThree start
+-------------------------------------------------- */
+.postSliderThree .carousel-caption {
+  right: auto;
+  left: 0;
+  text-align: left;
+  color: #969595;
+  background-color: rgba(255, 255, 255, 0.74);
+  text-shadow: none;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.postSliderThree .entry-title {
+  font-size: 15px;
+  margin: 0;
+}
+.postSliderThree .entry-title a {
+	color: #313131;
+}
+.postSliderThree .entry-title a:hover {
+	color: #31aae2;
+}
+.postSliderThree .entry-header p{
+	margin: 0;
+}
+#postSliderThree .carousel-control {
+  top: 50%;
+  margin-top: -22px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  line-height: 42px;
+  color: #fff;
+  text-shadow: none;
+}
+#postSliderThree .carousel-control.left,
+#postSliderThree .carousel-control.right {
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+#postSliderThree .carousel-control.left {
+  left: 30px;
+}
+#postSliderThree .carousel-control.right {
+  right: 30px;
+}
+
+.postSliderThree .post-content{}
+.postSliderThree .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderThree .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderThree .post-content .btn:hover {
+	border-color: #31aae2;
+}
+/* --------------------------------------------------
+postSliderThree end
+-------------------------------------------------- */
+
+
+
+/* --------------------------------------------------
+postSliderFour
+-------------------------------------------------- */
+.postSliderFour .flex-control-thumbs{
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-top: 0;
+  margin: 0;
+  padding: 20px;
+}
+.postSliderFour .flex-control-thumbs li{
+  width: 84px;
+  margin-right: 20px;
+}
+
+@media (max-width : 991px) {
+  .post-content {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width : 479px) {
+  .postSliderFour .flex-control-thumbs {
+    display: none;
+  }
+}
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+  .postSliderFour .flex-control-thumbs {
+    padding: 10px;
+  }
+  .postSliderFour .flex-control-thumbs li {
+    width: 53px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 1199px) {
+  .postSliderFour .flex-control-thumbs li {
+    width: 70px;
+    margin-right: 14px;
+  }
+}
+
+
+
+.postSliderFour .flex-control-thumbs li:last-child{
+  margin-right: 0;
+}
+.postSliderFour-nav .prev,
+.postSliderFour-nav .next{
+  position: absolute;
+  top: 36%;
+  cursor: pointer;
+}
+.postSliderFour-nav .prev{
+  left: 5%;
+}
+.postSliderFour-nav .next{
+  right: 5%;
+}
+.postSliderFour-nav i{
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 43px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.postSliderFour-wrapper .post-content .btn {
+  margin-top: 20px;
+}
+.postSliderFour-wrapper .post-content h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+/* --------------------------------------------------
+postSliderFour end
+-------------------------------------------------- */
+
+
+
+/* --------------------------------------------------
+postSliderFive start
+-------------------------------------------------- */
+.postSliderFive .carousel-content {
+	position: absolute;
+	top: 50%;
+	margin-top: -55px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+
+#postSliderFive .item h2 {
+  font-size: 1.538em;
+  font-weight: 700;
+  color: #31aae2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px 30px;
+  margin: 0;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#postSliderFive .item span{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: rgba(49, 170, 226, 0.35);
+	padding: 10px 30px;
+	display: inline-block;
+	margin: 0;
+	border-radius: 30px;
+}
+
+@media (max-width : 766px) {
+  #postSliderFive .item h2 {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  #postSliderFive .item span {
+    padding: 0 16px;
+  }
+
+}
+
+.postSliderFive .post-content{}
+.postSliderFive .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderFive .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderFive .post-content .btn:hover {
+	margin-top: 20px;
+	border-color: #31aae2;
+}
+/* --------------------------------------------------
+postSliderFive end
+-------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------------
+postSliderSix start
+-------------------------------------------------- */
+#postSliderSix .carousel-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42%;
+  height: 100%;
+  background-color: rgba(49, 170, 226, 0.9);
+  color: #fff;
+  padding: 90px 40px;
+}
+
+@media only screen and (max-width : 479px) {
+  #postSliderSix .carousel-content {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+  #postSliderSix .carousel-content {
+    width: 70%;
+    padding: 20px 20px;
+  }
+
+}
+
+@media (min-width : 992px) and (max-width : 1199px) {
+  #postSliderSix .carousel-content {
+    padding: 25px 40px;
+  }
+}
+
+
+
+#postSliderSix .carousel-indicators {
+  right: 30px;
+  left: auto;
+  width: inherit;
+  margin-left: inherit;
+}
+#postSliderSix .carousel-indicators li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+
+
+.postSliderSix .post-content{}
+.postSliderSix .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderSix .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderSix .post-content .btn:hover {
+	margin-top: 20px;
+	border-color: #31aae2;
+}
+/* --------------------------------------------------
+postSliderSix end
+-------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------------
+postSliderSeven start
+-------------------------------------------------- */
+#postSliderSeven .carousel-control {
+  top: 50%;
+  margin-top: -22px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  line-height: 42px;
+  color: #fff;
+  text-shadow: none;
+}
+#postSliderSeven .carousel-control.left,
+#postSliderSeven .carousel-control.right {
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+#postSliderSeven .carousel-control.left {
+  left: 30px;
+}
+#postSliderSeven .carousel-control.right {
+  right: 30px;
+}
+
+
+/* video trigger*/
+#postSliderSeven .play-trigger {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	margin-left: -44px;
+	margin-top: -44px;
+	border: 0;
+	color: #fff;
+	background: #31aae2;
+	font-size: 30px;
+	line-height: 88px;
+	text-align: center;
+	box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.15);
+	-webkit-transition      : all 0.3s ease 0s;
+	-moz-transition      : all 0.3s ease 0s;
+	-o-transition      : all 0.3s ease 0s;
+	transition      : all 0.3s ease 0s;
+}
+#postSliderSeven .play-trigger:hover {
+  color: #31aae2;
+  background: #fff;
+}
+#postSliderSeven .play-trigger i {
+	margin-left: 5px;
+}
+
+.postSliderSeven .post-content{}
+.postSliderSeven .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderSeven .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderSeven .post-content .btn:hover {
+	margin-top: 20px;
+	border-color: #31aae2;
+}
+/* --------------------------------------------------
+postSliderSeven end
+-------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------------
+postSliderEight start
+-------------------------------------------------- */
+.postSliderEight .carousel-caption {
+  right: auto;
+  left: 30px;
+  bottom: 30px;
+  text-align: left;
+  color: #969595;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-shadow: none;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 42%;
+  border-bottom: 3px solid #31aae2;
+}
+
+@media (max-width : 479px) {
+	.postSliderEight .carousel-caption {
+	  left: 0;
+	  bottom: 10px;
+	  padding: 10px 15px;
+	  width: 80%;
+	}
+}
+
+
+.postSliderEight .carousel-caption p{
+	margin: 0;
+}
+
+#postSliderEight .carousel-indicators {
+  right: 30px;
+  left: auto;
+  width: inherit;
+  margin-left: inherit;
+}
+#postSliderEight .carousel-indicators li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+}
+
+.postSliderEight .post-content{}
+.postSliderEight .post-content h2{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.postSliderEight .post-content .btn {
+	margin-top: 20px;
+}
+.postSliderEight .post-content .btn:hover {
+	margin-top: 20px;
+	border-color: #31aae2;
+}
+/* --------------------------------------------------
+postSliderEight end
+-------------------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------------------
+postSliderTen
+-------------------------------------------------- */
+.postSliderTen .flex-control-thumbs{
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-top: 0;
+  margin: 0;
+  padding: 15px;
+}
+.postSliderTen .flex-control-thumbs img {
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+
+.postSliderTen .flex-control-thumbs li{
+  width: 84px;
+  margin-right: 20px;
+}
+
+
+@media (max-width : 991px) {
+  .postSliderTen .post-content {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width : 479px) {
+  .postSliderTen .flex-control-thumbs {
+    display: none;
+  }
+}
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+  .postSliderTen .flex-control-thumbs {
+    padding: 10px;
+  }
+  .postSliderTen .flex-control-thumbs li {
+    width: 53px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 1199px) {
+  .postSliderTen .flex-control-thumbs li {
+    width: 70px;
+    margin-right: 14px;
+  }
+}
+
+
+
+
+.postSliderTen .flex-control-thumbs li:last-child{
+  margin-right: 0;
+}
+.postSliderTen-nav .prev,
+.postSliderTen-nav .next{
+  position: absolute;
+  top: 36%;
+  cursor: pointer;
+}
+.postSliderTen-nav .prev{
+  left: 5%;
+}
+.postSliderTen-nav .next{
+  right: 5%;
+}
+.postSliderTen-nav i{
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 43px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.postSliderTen-wrapper .post-content .btn {
+  margin-top: 20px;
+}
+.postSliderTen-wrapper .post-content h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+/* --------------------------------------------------
+postSliderTen end
+-------------------------------------------------- */
